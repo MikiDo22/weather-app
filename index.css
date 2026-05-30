@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Poppins'sans-serif;
+    
+}
+body{
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 100px auto 0;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #555, rgba(211, 138, 138, 0.593));
+    width: min(100%, 400px);
+    border: none;
+    padding: 50px;
+    text-align: center;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+    border: none;
+    border-radius: 22px;
+    outline: none;
+}
+.head input{
+    width: 100%;
+    margin-right: 20px;
+    padding: 12px;
+    border-radius: 12px;
+    outline: none;
+    flex: 1;
+    border: none;
+    background: #fff;
+    color: #555;
+    font-size: 22px;
+    margin-left: -30px;
+}
+.head button{
+    margin-right: -40px;
+    width: 45px;
+    cursor: pointer;
+    height: 45px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+}
+.head img{
+    margin-right: 10px;
+    width: 48px;
+}
+.details{
+    text-align: center;
+}
+.details img{
+    width:8rem;
+}
+.details p{
+    width: 100%;
+    margin-top: -10px;
+    font-size: 28px;
+    font-weight: 400px;
+}
+.details-weather{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.weather{
+    display: none;
+}
+.col{
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 15px;
+}
+
+.col img{
+    margin-right: 10px;
+    width: 45px;
+}
+.error-message{
+    text-align: left;
+    padding: 10px;
+    margin-left: 15px;
+    font-size: 23px;
+    color: #fff;
+    display: none;
+
+}
+
+
