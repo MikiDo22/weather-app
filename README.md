@@ -1,21 +1,21 @@
 # Weather App
-Eine webanwendung zur Echtzeit-Weterabfrage über die OpenweatherMap-API.
-Der nutzer gibt eine Stade ein und erhält Temperatur, luftfeuchtigkeit, Windgeschwindigkeit sowie einpassende Wetter-Icon.
+Eine webanwendung zur Echtzeit-Wetterabfrage über die OpenweatherMap-API.
+Der Nutzer gibt eine Stadt ein und erhält Temperatur, Luftfeuchtigkeit, Windgeschwindigkeit sowie ein passendes Wetter-Icon.
 
-##Technologien
+## Technologien
 - HTML
 - CSS
 - JavaScript (Fetch API, async/await)
 - OpenWeatherMap Rest API
 
 ## Features
-- weatherabfrage in Echtzeit nach Städtenamen
+- Wetterabfrage in Echtzeit nach Städtenamen
 - Anzeige von Temperatur, Luftfeutchtigkeit und Windgeschwindigkeit
-- Dynamisches Wetter-_con je nach Wetterlsge.
+- Dynamisches Wetter-Icon je nach Wetterlage.
 - Fehlerbehandlung bei leerer Eingabe und unbekannter Stadt (Status 404)
 
-## Herasuforderung and Lösung
-Die OpenWeatherMap-Api liefert ihre Daten asynchron. EinProblem war, dass die oberfläche aktualisiert werden sollte, bevore
+## Herasuforderung & Lösung
+Die OpenWeatherMap-Api liefert ihre Daten asynchron. Ein Problem war, dass die oberfläche aktualisiert werden sollte, bevore
 die Antwort vollständig geladen war.Gelöst habe ich das mit async/await, await fetch und await response.json() wartet die Funktion aufdie Daten, bevoresie die Wetre
 in die Oberfläche schreibt.
 ## Setup
