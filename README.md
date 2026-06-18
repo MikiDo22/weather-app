@@ -24,4 +24,4 @@ in die Oberfläche schreibt.
 3 Den key in index.js bei const apikey eintragen.
 4 index.html in Browser öffnen.
 ## Live Demo
-[https://mikido22.github.io/weather-app/](https://mikido22.gitub.io/weather-app/)
+[https://mikido22.github.io/weather-app/](https://mikido22.github.io/weather-app/)
